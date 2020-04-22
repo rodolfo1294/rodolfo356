@@ -1,0 +1,20 @@
+*/
+
+import java.util.Scanner;
+public class ecuacion_cuadratica {
+Scanner lea = new Scanner (System.in);
+public static void main (String[]args) {
+ecuacion_cuadratica object = new ecuacion_cuadratica();
+object.banner();
+object.solucion();
+}
+
+public void banner() {
+System.out.println (“#########################################################”);
+System.out.println (“# SOLUCION ECUACIONES CUADRATICAS DE LA FORMA AX^2+BX+C #”);
+System.out.println (“# —————————————————– #”);
+System.out.println (“# Compiler: javac ecuacion_cuadratica.java #”);
+System.out.println (“# modo uso: java ecuacion_cuadratica #”);
+System.out.println (“# =-=-=-=-=-=-=-=- Coded by @r4z0r_bl4ck -=-=-=-=-=-=-= #”);
+System.out.println (“#########################################################”);
+}
